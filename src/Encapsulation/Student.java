@@ -2,7 +2,7 @@ package Encapsulation;
 
 public class Student {
     //data fields
-    //declaring private variables (Variables only accessed within the same class
+    //declaring private variables (Variables only accessed within the same class)
     private String schoolName;
     private String name;
     private String schoolYr;
@@ -38,7 +38,7 @@ public class Student {
         return this.cin;
     }
 
-    //providing setters to change the variable values if needed
+    //providing setters to change the variable values if needed and since the variables are private
 
     public void setSchoolName(String schoolName) {
         this.schoolName = schoolName;
